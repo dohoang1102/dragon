@@ -28,7 +28,6 @@
   mainFrame.size = CGSizeMake(mainFrame.size.height, mainFrame.size.width);
   PageView *pageView = [[PageView alloc] initWithFrame:mainFrame];
   
-  NSLog(@"frame is %f, %f, %f, %f", pageView.frame.origin.x, pageView.frame.origin.y, pageView.frame.size.width, pageView.frame.size.height);
   [pageView addPage:[[OnceUponATime alloc] init]];
   [pageView addPage:[[OnceUponATime alloc] init]];
   [self.view addSubview:pageView];
