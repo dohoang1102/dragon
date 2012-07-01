@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PageView : UIScrollView
+@interface ContentController : NSObject
 
-- (void)addPage:(UIView *)page;
+- (id)initWithViewFrame:(CGRect)frame;
+
+- (UIView *)view;
+
+- (void)addPage:(UIViewController *)pageController;
 
 @end

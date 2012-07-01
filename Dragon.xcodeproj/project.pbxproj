@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C30D9D715A0B7E100572406 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D9D615A0B7E100572406 /* PageView.m */; };
+		3C30D9D715A0B7E100572406 /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D9D615A0B7E100572406 /* ContentController.m */; };
 		3C30DA2215A0B9DB00572406 /* OnceUponATime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA2115A0B9DB00572406 /* OnceUponATime.m */; };
 		3C8BDB28159A58C60093A873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB27159A58C60093A873 /* UIKit.framework */; };
 		3C8BDB2A159A58C60093A873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB29159A58C60093A873 /* Foundation.framework */; };
@@ -34,8 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C30D9D515A0B7E100572406 /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
-		3C30D9D615A0B7E100572406 /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		3C30D9D515A0B7E100572406 /* ContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ContentController.h; sourceTree = "<group>"; };
+		3C30D9D615A0B7E100572406 /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentController.m; sourceTree = "<group>"; };
 		3C30DA2015A0B9DB00572406 /* OnceUponATime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceUponATime.h; sourceTree = "<group>"; };
 		3C30DA2115A0B9DB00572406 /* OnceUponATime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceUponATime.m; sourceTree = "<group>"; };
 		3C8BDB23159A58C60093A873 /* Dragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,8 +85,8 @@
 		3C30D9D315A0B79000572406 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
-				3C30D9D515A0B7E100572406 /* PageView.h */,
-				3C30D9D615A0B7E100572406 /* PageView.m */,
+				3C30D9D515A0B7E100572406 /* ContentController.h */,
+				3C30D9D615A0B7E100572406 /* ContentController.m */,
 			);
 			name = Engine;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 				3C8BDB34159A58C60093A873 /* main.m in Sources */,
 				3C8BDB38159A58C60093A873 /* AppDelegate.m in Sources */,
 				3C8BDB41159A58C60093A873 /* ViewController.m in Sources */,
-				3C30D9D715A0B7E100572406 /* PageView.m in Sources */,
+				3C30D9D715A0B7E100572406 /* ContentController.m in Sources */,
 				3C30DA2215A0B9DB00572406 /* OnceUponATime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

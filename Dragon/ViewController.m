@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "PageView.h"
+#import "ContentController.h"
 #import "OnceUponATime.h"
 
 @interface ViewController ()
@@ -26,11 +26,11 @@
   // applicationFrame is always portrait, we're running always landscape
   CGRect mainFrame = [UIScreen mainScreen].applicationFrame;
   mainFrame.size = CGSizeMake(mainFrame.size.height, mainFrame.size.width);
-  PageView *pageView = [[PageView alloc] initWithFrame:mainFrame];
+  ContentController *pageView = [[ContentController alloc] initWithViewFrame:mainFrame];
   
   [pageView addPage:[[OnceUponATime alloc] init]];
   [pageView addPage:[[OnceUponATime alloc] init]];
-  [self.view addSubview:pageView];
+  [self.view addSubview:pageView.view];
 }
 
 - (void)viewDidUnload
@@ -38,14 +38,10 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
-
+ 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-  if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-      return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-  } else {
-      return YES;
-  }
+  return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
 @end

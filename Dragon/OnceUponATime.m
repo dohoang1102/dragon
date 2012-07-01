@@ -18,8 +18,8 @@
     onceUponATime.text = @"Once upon a time...";
     CGSize ouatSize = [onceUponATime.text sizeWithFont:onceUponATime.font];
     onceUponATime.frame = CGRectMake(20, 20, ouatSize.width, ouatSize.height);
-    [self addSubview:onceUponATime];
-    self.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:onceUponATime];
+    self.view.backgroundColor = [UIColor orangeColor];
   }
   return self;
 }

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OnceUponATime : UIView
+@interface OnceUponATime : UIViewController
 
 @end
