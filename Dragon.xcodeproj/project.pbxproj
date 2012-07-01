@@ -10,6 +10,19 @@
 		3C30D9D715A0B7E100572406 /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D9D615A0B7E100572406 /* ContentController.m */; };
 		3C30DA2F15A0C89200572406 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA2E15A0C89200572406 /* PageViewController.m */; };
 		3C30DA3515A0CB7600572406 /* story.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DA3415A0CB7600572406 /* story.json */; };
+		3C30DA4315A0D96A00572406 /* build.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DA4215A0D96A00572406 /* build.json */; };
+		3C30DA4B15A0D9F200572406 /* StoryDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA4915A0D9F200572406 /* StoryDataModel.xcdatamodeld */; };
+		3C30DA6215A0DBC000572406 /* Story+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA6115A0DBC000572406 /* Story+Extensions.m */; };
+		3C30DA6415A0DC3C00572406 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30DA6315A0DC3C00572406 /* CoreData.framework */; };
+		3C30DA6615A0DC7900572406 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30DA6515A0DC7900572406 /* SystemConfiguration.framework */; };
+		3C30DA6915A0DED400572406 /* SuperSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA6815A0DED400572406 /* SuperSerial.m */; };
+		3C30DA6C15A0E07800572406 /* Page+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA6B15A0E07800572406 /* Page+Extensions.m */; };
+		3C30DA6F15A0E0AF00572406 /* PageElement+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA6E15A0E0AF00572406 /* PageElement+Extensions.m */; };
+		3C30DA7215A0E15F00572406 /* PageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA7115A0E15F00572406 /* PageElement.m */; };
+		3C30DA7515A0E16000572406 /* Decision.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA7415A0E16000572406 /* Decision.m */; };
+		3C30DA7815A0E16100572406 /* Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA7715A0E16100572406 /* Reading.m */; };
+		3C30DA7B15A0E16200572406 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA7A15A0E16200572406 /* Story.m */; };
+		3C30DA8115A0E5BB00572406 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA8015A0E5BB00572406 /* Page.m */; };
 		3C8BDB28159A58C60093A873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB27159A58C60093A873 /* UIKit.framework */; };
 		3C8BDB2A159A58C60093A873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB29159A58C60093A873 /* Foundation.framework */; };
 		3C8BDB2C159A58C60093A873 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB2B159A58C60093A873 /* CoreGraphics.framework */; };
@@ -40,6 +53,28 @@
 		3C30DA2D15A0C89200572406 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		3C30DA2E15A0C89200572406 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		3C30DA3415A0CB7600572406 /* story.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = story.json; sourceTree = "<group>"; };
+		3C30DA4215A0D96A00572406 /* build.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = build.json; sourceTree = "<group>"; };
+		3C30DA4A15A0D9F200572406 /* StoryDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoryDataModel.xcdatamodel; sourceTree = "<group>"; };
+		3C30DA6015A0DBC000572406 /* Story+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Story+Extensions.h"; sourceTree = "<group>"; };
+		3C30DA6115A0DBC000572406 /* Story+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Story+Extensions.m"; sourceTree = "<group>"; };
+		3C30DA6315A0DC3C00572406 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3C30DA6515A0DC7900572406 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C30DA6715A0DED400572406 /* SuperSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperSerial.h; sourceTree = "<group>"; };
+		3C30DA6815A0DED400572406 /* SuperSerial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperSerial.m; sourceTree = "<group>"; };
+		3C30DA6A15A0E07800572406 /* Page+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Page+Extensions.h"; sourceTree = "<group>"; };
+		3C30DA6B15A0E07800572406 /* Page+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Page+Extensions.m"; sourceTree = "<group>"; };
+		3C30DA6D15A0E0AF00572406 /* PageElement+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PageElement+Extensions.h"; sourceTree = "<group>"; };
+		3C30DA6E15A0E0AF00572406 /* PageElement+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PageElement+Extensions.m"; sourceTree = "<group>"; };
+		3C30DA7015A0E15F00572406 /* PageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageElement.h; sourceTree = "<group>"; };
+		3C30DA7115A0E15F00572406 /* PageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageElement.m; sourceTree = "<group>"; };
+		3C30DA7315A0E16000572406 /* Decision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decision.h; sourceTree = "<group>"; };
+		3C30DA7415A0E16000572406 /* Decision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision.m; sourceTree = "<group>"; };
+		3C30DA7615A0E16100572406 /* Reading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reading.h; sourceTree = "<group>"; };
+		3C30DA7715A0E16100572406 /* Reading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reading.m; sourceTree = "<group>"; };
+		3C30DA7915A0E16200572406 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		3C30DA7A15A0E16200572406 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
+		3C30DA7F15A0E5BA00572406 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		3C30DA8015A0E5BB00572406 /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
 		3C8BDB23159A58C60093A873 /* Dragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8BDB27159A58C60093A873 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3C8BDB29159A58C60093A873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C30DA6615A0DC7900572406 /* SystemConfiguration.framework in Frameworks */,
+				3C30DA6415A0DC3C00572406 /* CoreData.framework in Frameworks */,
 				3C8BDB28159A58C60093A873 /* UIKit.framework in Frameworks */,
 				3C8BDB2A159A58C60093A873 /* Foundation.framework in Frameworks */,
 				3C8BDB2C159A58C60093A873 /* CoreGraphics.framework in Frameworks */,
@@ -87,12 +124,56 @@
 		3C30D9D315A0B79000572406 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				3C30DA4815A0D9E200572406 /* Models */,
 				3C30D9D515A0B7E100572406 /* ContentController.h */,
 				3C30D9D615A0B7E100572406 /* ContentController.m */,
 				3C30DA2D15A0C89200572406 /* PageViewController.h */,
 				3C30DA2E15A0C89200572406 /* PageViewController.m */,
 			);
 			name = Engine;
+			sourceTree = "<group>";
+		};
+		3C30DA4115A0D95D00572406 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				3C30DA3415A0CB7600572406 /* story.json */,
+				3C30DA4215A0D96A00572406 /* build.json */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		3C30DA4815A0D9E200572406 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C30DA4915A0D9F200572406 /* StoryDataModel.xcdatamodeld */,
+				3C30DA6715A0DED400572406 /* SuperSerial.h */,
+				3C30DA6815A0DED400572406 /* SuperSerial.m */,
+				3C30DA4C15A0DB6E00572406 /* Generated */,
+				3C30DA6015A0DBC000572406 /* Story+Extensions.h */,
+				3C30DA6115A0DBC000572406 /* Story+Extensions.m */,
+				3C30DA6A15A0E07800572406 /* Page+Extensions.h */,
+				3C30DA6B15A0E07800572406 /* Page+Extensions.m */,
+				3C30DA6D15A0E0AF00572406 /* PageElement+Extensions.h */,
+				3C30DA6E15A0E0AF00572406 /* PageElement+Extensions.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3C30DA4C15A0DB6E00572406 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				3C30DA7015A0E15F00572406 /* PageElement.h */,
+				3C30DA7115A0E15F00572406 /* PageElement.m */,
+				3C30DA7315A0E16000572406 /* Decision.h */,
+				3C30DA7415A0E16000572406 /* Decision.m */,
+				3C30DA7615A0E16100572406 /* Reading.h */,
+				3C30DA7715A0E16100572406 /* Reading.m */,
+				3C30DA7915A0E16200572406 /* Story.h */,
+				3C30DA7A15A0E16200572406 /* Story.m */,
+				3C30DA7F15A0E5BA00572406 /* Page.h */,
+				3C30DA8015A0E5BB00572406 /* Page.m */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 		3C8BDB18159A58C60093A873 = {
@@ -117,6 +198,8 @@
 		3C8BDB26159A58C60093A873 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C30DA6515A0DC7900572406 /* SystemConfiguration.framework */,
+				3C30DA6315A0DC3C00572406 /* CoreData.framework */,
 				3C8BDB27159A58C60093A873 /* UIKit.framework */,
 				3C8BDB29159A58C60093A873 /* Foundation.framework */,
 				3C8BDB2B159A58C60093A873 /* CoreGraphics.framework */,
@@ -133,7 +216,7 @@
 				3C8BDB37159A58C60093A873 /* AppDelegate.m */,
 				3C8BDB3F159A58C60093A873 /* ViewController.h */,
 				3C8BDB40159A58C60093A873 /* ViewController.m */,
-				3C30DA3415A0CB7600572406 /* story.json */,
+				3C30DA4115A0D95D00572406 /* Story */,
 				3C8BDB2E159A58C60093A873 /* Supporting Files */,
 			);
 			path = Dragon;
@@ -241,6 +324,7 @@
 			files = (
 				3C8BDB32159A58C60093A873 /* InfoPlist.strings in Resources */,
 				3C30DA3515A0CB7600572406 /* story.json in Resources */,
+				3C30DA4315A0D96A00572406 /* build.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +364,16 @@
 				3C8BDB41159A58C60093A873 /* ViewController.m in Sources */,
 				3C30D9D715A0B7E100572406 /* ContentController.m in Sources */,
 				3C30DA2F15A0C89200572406 /* PageViewController.m in Sources */,
+				3C30DA4B15A0D9F200572406 /* StoryDataModel.xcdatamodeld in Sources */,
+				3C30DA6215A0DBC000572406 /* Story+Extensions.m in Sources */,
+				3C30DA6915A0DED400572406 /* SuperSerial.m in Sources */,
+				3C30DA6C15A0E07800572406 /* Page+Extensions.m in Sources */,
+				3C30DA6F15A0E0AF00572406 /* PageElement+Extensions.m in Sources */,
+				3C30DA7215A0E15F00572406 /* PageElement.m in Sources */,
+				3C30DA7515A0E16000572406 /* Decision.m in Sources */,
+				3C30DA7815A0E16100572406 /* Reading.m in Sources */,
+				3C30DA7B15A0E16200572406 /* Story.m in Sources */,
+				3C30DA8115A0E5BB00572406 /* Page.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +549,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C30DA4915A0D9F200572406 /* StoryDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C30DA4A15A0D9F200572406 /* StoryDataModel.xcdatamodel */,
+			);
+			currentVersion = 3C30DA4A15A0D9F200572406 /* StoryDataModel.xcdatamodel */;
+			path = StoryDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3C8BDB1A159A58C60093A873 /* Project object */;
 }

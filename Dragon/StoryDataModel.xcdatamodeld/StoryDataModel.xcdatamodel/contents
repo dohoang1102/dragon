@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Decision" representedClassName="Decision" syncable="YES">
+        <attribute name="tag" attributeType="String" syncable="YES"/>
+        <relationship name="reading" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Reading" inverseName="decisions" inverseEntity="Reading" syncable="YES"/>
+    </entity>
+    <entity name="Page" representedClassName="Page" syncable="YES">
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="elements" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PageElement" inverseName="page" inverseEntity="PageElement" syncable="YES"/>
+        <relationship name="story" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Story" inverseName="pages" inverseEntity="Story" syncable="YES"/>
+    </entity>
+    <entity name="PageElement" representedClassName="PageElement" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="page" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Page" inverseName="elements" inverseEntity="Page" syncable="YES"/>
+    </entity>
+    <entity name="Reading" representedClassName="Reading" syncable="YES">
+        <relationship name="decisions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Decision" inverseName="reading" inverseEntity="Decision" syncable="YES"/>
+        <relationship name="story" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Story" inverseName="readings" inverseEntity="Story" syncable="YES"/>
+    </entity>
+    <entity name="Story" representedClassName="Story" syncable="YES">
+        <attribute name="buildNumber" attributeType="Integer 16" syncable="YES"/>
+        <relationship name="pages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Page" inverseName="story" inverseEntity="Page" syncable="YES"/>
+        <relationship name="readings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Reading" inverseName="story" inverseEntity="Reading" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Story" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Page" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="PageElement" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Reading" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Decision" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>

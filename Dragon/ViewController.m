@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "ContentController.h"
 #import "PageViewController.h"
+#import "Story+Extensions.h"
+#import "Page+Extensions.h"
 
 @interface ViewController ()
 
@@ -28,8 +30,10 @@
   mainFrame.size = CGSizeMake(mainFrame.size.height, mainFrame.size.width);
   ContentController *pageView = [[ContentController alloc] initWithViewFrame:mainFrame];
   
-  [pageView addPage:[[PageViewController alloc] initWithJSONInFileNamed:@"story"]];
-  [pageView addPage:[[PageViewController alloc] initWithJSONInFileNamed:@"story"]];
+  Story *story = [Story defaultStory];
+  for (Page *page in story.pages) {
+    [pageView addPage:[[PageViewController alloc] initWithPage:page]];
+  }
   [self.view addSubview:pageView.view];
 }
 

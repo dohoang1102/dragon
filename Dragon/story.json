@@ -1,17 +1,40 @@
 {
-  "elements": [
+  "pages": [
     {
-      "type": "text",
-      "text": "Once upon a time...",
-      "font": "tbd",
-      "iPhone": {
-        "size": 24.0,
-        "position": [20.0, 20.0]
-      },
-      "iPad": {
-        "size": 44.0,
-        "position": [100.0, 100.0]
-      }
+      "tag": "1",
+      "elements": [
+        {
+          "type": "text",
+          "text": "Once upon a time...",
+          "font": "tbd",
+          "iPhone": {
+            "size": 24.0,
+            "position": [20.0, 20.0]
+          },
+          "iPad": {
+            "size": 44.0,
+            "position": [100.0, 100.0]
+          }
+        }
+      ]
+    },
+    {
+      "tag": "2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "There was a boy.",
+          "font": "tbd",
+          "iPhone": {
+            "size": 24.0,
+            "position": [20.0, 20.0]
+          },
+          "iPad": {
+            "size": 44.0,
+            "position": [100.0, 100.0]
+          }
+        }
+      ]
     }
-  ]
+  ] 
 }

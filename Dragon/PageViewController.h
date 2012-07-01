@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Page+Extensions.h"
 
 @interface PageViewController : UIViewController
 
-- (id)initWithJSONInFileNamed:(NSString *)fileName;
+- (id)initWithPage:(Page *)page;
 
 @end
