@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "ContentController.h"
-#import "OnceUponATime.h"
+#import "PageViewController.h"
 
 @interface ViewController ()
 
@@ -28,8 +28,8 @@
   mainFrame.size = CGSizeMake(mainFrame.size.height, mainFrame.size.width);
   ContentController *pageView = [[ContentController alloc] initWithViewFrame:mainFrame];
   
-  [pageView addPage:[[OnceUponATime alloc] init]];
-  [pageView addPage:[[OnceUponATime alloc] init]];
+  [pageView addPage:[[PageViewController alloc] initWithJSONInFileNamed:@"story"]];
+  [pageView addPage:[[PageViewController alloc] initWithJSONInFileNamed:@"story"]];
   [self.view addSubview:pageView.view];
 }
 

@@ -1,5 +1,5 @@
 //
-//  OnceUponATime.h
+//  PageViewController.h
 //  Dragon
 //
 //  Created by Ian Terrell on 7/1/12.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OnceUponATime : UIViewController
+@interface PageViewController : UIViewController
+
+- (id)initWithJSONInFileNamed:(NSString *)fileName;
 
 @end
