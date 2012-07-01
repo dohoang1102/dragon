@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "PageView.h"
+#import "OnceUponATime.h"
 
 @interface ViewController ()
 
@@ -16,8 +18,20 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+  [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  
+  self.view.backgroundColor = [UIColor grayColor];
+  
+  // applicationFrame is always portrait, we're running always landscape
+  CGRect mainFrame = [UIScreen mainScreen].applicationFrame;
+  mainFrame.size = CGSizeMake(mainFrame.size.height, mainFrame.size.width);
+  PageView *pageView = [[PageView alloc] initWithFrame:mainFrame];
+  
+  NSLog(@"frame is %f, %f, %f, %f", pageView.frame.origin.x, pageView.frame.origin.y, pageView.frame.size.width, pageView.frame.size.height);
+  [pageView addPage:[[OnceUponATime alloc] init]];
+  [pageView addPage:[[OnceUponATime alloc] init]];
+  [self.view addSubview:pageView];
 }
 
 - (void)viewDidUnload

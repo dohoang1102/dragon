@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C30D9D715A0B7E100572406 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D9D615A0B7E100572406 /* PageView.m */; };
+		3C30DA2215A0B9DB00572406 /* OnceUponATime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DA2115A0B9DB00572406 /* OnceUponATime.m */; };
 		3C8BDB28159A58C60093A873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB27159A58C60093A873 /* UIKit.framework */; };
 		3C8BDB2A159A58C60093A873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB29159A58C60093A873 /* Foundation.framework */; };
 		3C8BDB2C159A58C60093A873 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB2B159A58C60093A873 /* CoreGraphics.framework */; };
 		3C8BDB32159A58C60093A873 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C8BDB30159A58C60093A873 /* InfoPlist.strings */; };
 		3C8BDB34159A58C60093A873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8BDB33159A58C60093A873 /* main.m */; };
 		3C8BDB38159A58C60093A873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8BDB37159A58C60093A873 /* AppDelegate.m */; };
-		3C8BDB3B159A58C60093A873 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8BDB39159A58C60093A873 /* MainStoryboard_iPhone.storyboard */; };
-		3C8BDB3E159A58C60093A873 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8BDB3C159A58C60093A873 /* MainStoryboard_iPad.storyboard */; };
 		3C8BDB41159A58C60093A873 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8BDB40159A58C60093A873 /* ViewController.m */; };
 		3C8BDB49159A58C60093A873 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB48159A58C60093A873 /* SenTestingKit.framework */; };
 		3C8BDB4A159A58C60093A873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8BDB27159A58C60093A873 /* UIKit.framework */; };
@@ -34,25 +34,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C30D9D515A0B7E100572406 /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
+		3C30D9D615A0B7E100572406 /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		3C30DA2015A0B9DB00572406 /* OnceUponATime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceUponATime.h; sourceTree = "<group>"; };
+		3C30DA2115A0B9DB00572406 /* OnceUponATime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceUponATime.m; sourceTree = "<group>"; };
 		3C8BDB23159A58C60093A873 /* Dragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8BDB27159A58C60093A873 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3C8BDB29159A58C60093A873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C8BDB2B159A58C60093A873 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3C8BDB2F159A58C60093A873 /* Dragon-Info.plist */ = {isa = PBXFileReference; path = "Dragon-Info.plist"; sourceTree = "<group>"; };
+		3C8BDB2F159A58C60093A873 /* Dragon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dragon-Info.plist"; sourceTree = "<group>"; };
 		3C8BDB31159A58C60093A873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C8BDB33159A58C60093A873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C8BDB35159A58C60093A873 /* Dragon-Prefix.pch */ = {isa = PBXFileReference; path = "Dragon-Prefix.pch"; sourceTree = "<group>"; };
-		3C8BDB36159A58C60093A873 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C8BDB35159A58C60093A873 /* Dragon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dragon-Prefix.pch"; sourceTree = "<group>"; };
+		3C8BDB36159A58C60093A873 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C8BDB37159A58C60093A873 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C8BDB3A159A58C60093A873 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		3C8BDB3D159A58C60093A873 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3C8BDB3F159A58C60093A873 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3C8BDB3F159A58C60093A873 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3C8BDB40159A58C60093A873 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3C8BDB47159A58C60093A873 /* DragonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8BDB48159A58C60093A873 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3C8BDB50159A58C60093A873 /* DragonTests-Info.plist */ = {isa = PBXFileReference; path = "DragonTests-Info.plist"; sourceTree = "<group>"; };
+		3C8BDB50159A58C60093A873 /* DragonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragonTests-Info.plist"; sourceTree = "<group>"; };
 		3C8BDB52159A58C60093A873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3C8BDB54159A58C60093A873 /* DragonTests.h */ = {isa = PBXFileReference; path = DragonTests.h; sourceTree = "<group>"; };
+		3C8BDB54159A58C60093A873 /* DragonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonTests.h; sourceTree = "<group>"; };
 		3C8BDB55159A58C60093A873 /* DragonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C30D9D315A0B79000572406 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				3C30D9D515A0B7E100572406 /* PageView.h */,
+				3C30D9D615A0B7E100572406 /* PageView.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		3C30DA1F15A0B9CD00572406 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3C30DA2015A0B9DB00572406 /* OnceUponATime.h */,
+				3C30DA2115A0B9DB00572406 /* OnceUponATime.m */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
 		3C8BDB18159A58C60093A873 = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +133,10 @@
 		3C8BDB2D159A58C60093A873 /* Dragon */ = {
 			isa = PBXGroup;
 			children = (
+				3C30DA1F15A0B9CD00572406 /* Pages */,
+				3C30D9D315A0B79000572406 /* Engine */,
 				3C8BDB36159A58C60093A873 /* AppDelegate.h */,
 				3C8BDB37159A58C60093A873 /* AppDelegate.m */,
-				3C8BDB39159A58C60093A873 /* MainStoryboard_iPhone.storyboard */,
-				3C8BDB3C159A58C60093A873 /* MainStoryboard_iPad.storyboard */,
 				3C8BDB3F159A58C60093A873 /* ViewController.h */,
 				3C8BDB40159A58C60093A873 /* ViewController.m */,
 				3C8BDB2E159A58C60093A873 /* Supporting Files */,
@@ -225,8 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8BDB32159A58C60093A873 /* InfoPlist.strings in Resources */,
-				3C8BDB3B159A58C60093A873 /* MainStoryboard_iPhone.storyboard in Resources */,
-				3C8BDB3E159A58C60093A873 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +282,8 @@
 				3C8BDB34159A58C60093A873 /* main.m in Sources */,
 				3C8BDB38159A58C60093A873 /* AppDelegate.m in Sources */,
 				3C8BDB41159A58C60093A873 /* ViewController.m in Sources */,
+				3C30D9D715A0B7E100572406 /* PageView.m in Sources */,
+				3C30DA2215A0B9DB00572406 /* OnceUponATime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,22 +312,6 @@
 				3C8BDB31159A58C60093A873 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3C8BDB39159A58C60093A873 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C8BDB3A159A58C60093A873 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		3C8BDB3C159A58C60093A873 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C8BDB3D159A58C60093A873 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		3C8BDB51159A58C60093A873 /* InfoPlist.strings */ = {
@@ -443,6 +447,7 @@
 				3C8BDB5B159A58C60093A873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C8BDB5C159A58C60093A873 /* Build configuration list for PBXNativeTarget "DragonTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +456,7 @@
 				3C8BDB5E159A58C60093A873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
